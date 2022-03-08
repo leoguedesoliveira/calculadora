@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="corpo">
+        <div class="tela">
+        
+        </div>
+        <div class="teclado">
+            <div class="opr1">
+                <button class="btn-num mais" onclick="insert(' + ')">+</button>
+                <button class="btn-num menos" onclick="insert(' - ')">-</button>
+                <button class="btn-num vezes" onclick="insert(' * ')">X</button>
+            </div>
+            <div class="opr2">
+                <button class="btn-num divisao" onclick="insert(' / ')">/</button>
+                <button class="btn-num porc" onclick="clean()">C</button>
+                <button class="btn-num apagar" onclick="back()">←</button>
+            </div>
+            <div class="fileira1">
+                <button class="btn-num 1" onclick="insert('1')">1</button>
+                <button class="btn-num 2" onclick="insert('2')">2</button>
+                <button class="btn-num 3" onclick="insert('3')">3</button>
+            </div>
+            <div class="fileira2">
+                <button class="btn-num 4" onclick="insert('4')">4</button>
+                <button class="btn-num 5" onclick="insert('5')">5</button>
+                <button class="btn-num 6" onclick="insert('6')">6</button>
+            </div>
+            <div class="fileira3">
+                <button class="btn-num 7" onclick="insert('7')">7</button>
+                <button class="btn-num 8" onclick="insert('8')">8</button>
+                <button class="btn-num 9" onclick="insert('9')">9</button>
+            </div>
+            <div class="fileira4">
+                <button class="btn-num 0" onclick="insert('0')">0</button>
+                <button class="btn-igual" onclick="calcular()">=</button>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
